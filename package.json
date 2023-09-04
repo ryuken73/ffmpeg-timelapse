@@ -1,0 +1,17 @@
+{
+  "name": "cctv_to_timelapse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@supercharge/promise-pool": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "pkg": "^5.8.1"
+  },
+  "scripts": {
+    "build": "pkg . --targets node16-win-x64"
+  },
+  "bin": {
+    "app": "./app.js"
+  }
+}
